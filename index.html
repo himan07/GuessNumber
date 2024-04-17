@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guesser</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div class="number_guesser_container">
+      <h1>Guess The Number</h1>
+      <p style="line-height: 0; margin-top: -30px">
+        Choose the number between 1 to 20
+      </p>
+      <div class="score_container">
+        <p class="label-score">💯 Score: <span class="score">20</span></p>
+        <p class="label-highscore">
+          🥇 Highscore: <span class="highscore">0</span>
+        </p>
+      </div>
+      <div class="input_field_container">
+        <input
+          type="text"
+          placeholder="Enter your number"
+          class="input_field"
+        />
+        <button class="btn guess">Guess</button>
+      </div>
+      <p class="message">Start guessing...</p> 
+      <button class="btn again">Again</button>
+    </div>
+
+  </body>
+</html>
